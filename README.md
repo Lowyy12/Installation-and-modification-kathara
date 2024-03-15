@@ -115,3 +115,42 @@ We will do the following command:
 ````bash
 docker build -t kathara/quagga:vlan .
 ````
+
+Comand:
+````bash
+docker images
+````
+Result:
+````
+REPOSITORY       TAG       IMAGE ID       CREATED          SIZE
+
+kathara/quagga   vlan      e78c02b83e3d   22 seconds ago   1.28GB
+kathara/base     latest    3e7b31aa8be8   5 days ago       1.01GB
+kathara/quagga   latest    62dd101dfa28   5 months ago     1.09GB
+````
+Now we just have to change the image with which we execute kathara
+
+The same way we had done before:
+
+Comand:
+````bash
+kathara settings
+````
+║    2 - Choose default image                                             ║
+
+Select 9:
+
+║    9 - Choose another image                                             ║
+
+````bash
+Write the name of a Docker image available on Docker Hub (enter q to Quit): kathara/quagga:vlan
+````
+Now if we do:
+````bash
+kathara vstart -n pc1
+````
+We can run vconfig
+
+### Conocimientos usados:
+
+<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>

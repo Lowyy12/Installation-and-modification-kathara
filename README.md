@@ -107,3 +107,11 @@ kathara/quagga   latest    62dd101dfa28   5 months ago   1.09GB
 In our case, we are going 
 to use the kathara:quagga image to install vconfig, based on the kathara:quagga image, 
 putting another tag called "vlan" on it.
+
+We are going to go to the Docker folder that we have cloned, in which there is a document called Dockerfile, if we read it, we can see that we are installing on the kathara:quagga vconf image, in addition to updating the packages.
+
+We will do the following command:
+
+````bash
+docker build -t kathara/quagga:vlan .
+````

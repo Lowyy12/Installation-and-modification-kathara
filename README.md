@@ -88,7 +88,7 @@ We select 2
   ║   10 - Return to Kathara Settings                                       ║
 
 We select 7
-
+````
 We execute again:
 
 ````bash

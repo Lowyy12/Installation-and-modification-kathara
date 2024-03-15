@@ -28,6 +28,7 @@ REPOSITORY     TAG       IMAGE ID       CREATED      SIZE
 
 kathara/base   latest    3e7b31aa8be8   5 days ago   1.01GB
 ````
+## Modifying boot image
 Let's change the image as follows:
 
 ````bash
@@ -64,8 +65,10 @@ kathara settings
   ║   15 - Configure a remote Docker connection                             ║
 
   ║   16 - Exit                                                             ║
+````
 
 We select 2
+````
 
   ║    1 - kathara/base                                                     ║
 
@@ -86,9 +89,10 @@ We select 2
   ║    9 - Choose another image                                             ║
 
   ║   10 - Return to Kathara Settings                                       ║
+````
 
 We select 7
-````
+
 We execute again:
 
 ````bash
@@ -129,6 +133,8 @@ kathara/base     latest    3e7b31aa8be8   5 days ago       1.01GB
 kathara/quagga   latest    62dd101dfa28   5 months ago     1.09GB
 ````
 Now we just have to change the image with which we execute kathara
+
+## Modifying boot image
 
 The same way we had done before:
 

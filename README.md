@@ -23,11 +23,11 @@ kathara vstart -n pc1
 Comand: "docker images"
 
 Result:
-
+````
 REPOSITORY     TAG       IMAGE ID       CREATED      SIZE
 
 kathara/base   latest    3e7b31aa8be8   5 days ago   1.01GB
-
+````
 Let's change the image as follows:
 
 ````bash
@@ -98,12 +98,12 @@ kathara vstart -n pc1
 Before we execute kathara wipe, if we have not done it before
 
 Result:
-
+````
 REPOSITORY       TAG       IMAGE ID       CREATED        SIZE
 
 kathara/base     latest    3e7b31aa8be8   5 days ago     1.01GB
 kathara/quagga   latest    62dd101dfa28   5 months ago   1.09GB
-
+````
 In our case, we are going 
 to use the kathara:quagga image to install vconfig, based on the kathara:quagga image, 
 putting another tag called "vlan" on it.

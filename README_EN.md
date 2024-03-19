@@ -15,6 +15,10 @@ We give execution permissions to install.sh
 chmod +x install.sh
 ````
 
+````bash
+./install.sh
+````
+
 Once it has been installed, for the docker image to appear we have to do the following:
 
 ````bash

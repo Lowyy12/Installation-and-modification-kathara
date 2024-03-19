@@ -6,7 +6,7 @@ En este repositorio voy a explicar cómo instalar Kathara de una manera fácil y
 Clonamos el repositorio con el siguiente comando:
 
 ````bash
-git clone https://github.com/Lowyy12/Installation-and-modification-kathar
+git clone https://github.com/Lowyy12/Installation-and-modification-kathara
 ````
 
 Le damos permisos de ejecución a install.sh
